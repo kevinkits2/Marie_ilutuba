@@ -1,0 +1,84 @@
+body {
+    background-image: url("pildid/taust.jpg");
+}
+
+.logo_table {
+    border-spacing: 50px;
+}
+
+.price_table {
+    font-size: 25px;
+    border-collapse: separate;
+    border-spacing: 50px 0;
+}
+
+td {
+    padding: 10px 0;
+}
+
+.center {
+    margin-left: auto;
+    margin-right: auto;
+}
+
+* {
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 60px;
+    margin-bottom: 0px;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+h2 {
+    font-size: 60px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+p1 {
+    display: inline-block;
+    margin-inline-end: 30px;
+    font-family: cursive;
+    font-size: 25px;
+    font-weight: bold;
+}
+
+p2 {
+    display: block;
+    font-family: cursive;
+    font-size: 25px;
+    text-align: center;
+    margin-top: 5px;
+    margin-bottom: 10px;
+}
+  
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+}
+  
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.logo {
+    height: 100px;
+    width: 100px;
+}
+
+.image {
+    border: 7px solid #ad9667;
+}
+
+.map {
+    height: 400px;
+    width: 700px;
+    display: block;
+}
